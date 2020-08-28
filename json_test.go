@@ -30,3 +30,23 @@ func TestMaybeNumber(t *testing.T) {
 		}
 	}
 }
+
+func TestDynamicType(t *testing.T) {
+	var v mangadex.DynamicType
+
+	if err := v.UnmarshalJSON([]byte(`false`)); err != nil {
+		t.Fatal(err)
+	}
+
+	if v.Value != false {
+		t.Fatalf("expected boolean false, got %q", v.Value)
+	}
+
+	if err := v.UnmarshalJSON([]byte(`0`)); err != nil {
+		t.Fatal(err)
+	}
+
+	if v.Value != 0 {
+		t.Fatalf("expected int 0, got %q", v.Value)
+	}
+}
