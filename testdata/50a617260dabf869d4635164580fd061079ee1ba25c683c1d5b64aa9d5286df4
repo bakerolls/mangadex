@@ -1,9 +1,9 @@
 HTTP/2.0 200 OK
-Cf-Ray: 4aec41c0a998407c-HAM
+Connection: close
+Content-Security-Policy: upgrade-insecure-requests;
 Content-Type: application/json
-Date: Mon, 25 Feb 2019 18:32:50 GMT
-Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Server: cloudflare
-Set-Cookie: __cfduid=da39a2665f9a11ae761cd9b70047cb3e41551119570; expires=Tue, 25-Feb-20 18:32:50 GMT; path=/; domain=.mangadex.org; HttpOnly
+Date: Sun, 30 Aug 2020 12:25:49 GMT
+Server: ddos-guard
+Set-Cookie: __ddg1=5HSU0TkwohHPm0yORlLK; Domain=.mangadex.org; HttpOnly; Path=/; Expires=Mon, 30-Aug-2021 12:25:49 GMT
 
-{"id":517244,"timestamp":1547047798,"hash":"4aa0fff4f2cd6803bfa5c4558e02bd31","volume":"3","chapter":"253","title":"Cool Day","lang_name":"English","lang_code":"gb","manga_id":23279,"group_id":27,"group_id_2":0,"group_id_3":0,"comments":8,"server":"https:\/\/s1.mangadex.org\/data\/","page_array":["m1.png"],"long_strip":0,"status":"OK"}
+{"id":517244,"timestamp":1547047798,"hash":"4aa0fff4f2cd6803bfa5c4558e02bd31","volume":"3","chapter":"253","title":"Cool Day","lang_name":"English","lang_code":"gb","manga_id":23279,"group_id":27,"group_name":"Helvetica Scans","group_id_2":0,"group_name_2":null,"group_id_3":0,"group_name_3":null,"comments":9,"server":"https:\/\/q995r9xs2rrv2.17gs0vwm6tq4w.mangadex.network:9433\/XDeMqFpYedtuqfQ5mbtmPXCzNJnmuwCgI5S8Tk3-VYXhrOQKRk-7i6GvvUrkjsxAtYMrAfRiu5CRmrOKPz91ytyMi6Oio9Vfj6m8MaP1-39txjUkUpqhRFLzDuSbehnif073dBsIwVzVCCajTw_wlWUwDzW4tmrHXem8_py_bxXQRWvphscYJ5-4Ct7COc1X1En_6H37gZVPrUxEmXE38GE\/data\/","page_array":["m1.png"],"long_strip":false,"status":"OK","server_fallback":"https:\/\/s5.mangadex.org\/data\/"}

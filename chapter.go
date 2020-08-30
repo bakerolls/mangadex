@@ -25,12 +25,12 @@ type Chapter struct {
 
 	// The following fields are only filled when the chapter is requested
 	// through the Client.Chapter function.
-	LangName  string      `json:"lang_name"`
-	Hash      string      `json:"hash"`
-	Server    string      `json:"server"`
-	Pages     []string    `json:"page_array"`
-	LongStrip DynamicType `json:"long_strip"`
-	Status    string      `json:"status"`
+	LangName  string   `json:"lang_name"`
+	Hash      string   `json:"hash"`
+	Server    string   `json:"server"`
+	Pages     []string `json:"page_array"`
+	LongStrip bool     `json:"long_strip"`
+	Status    string   `json:"status"`
 }
 
 // Chapter fetches a mangas chapter.

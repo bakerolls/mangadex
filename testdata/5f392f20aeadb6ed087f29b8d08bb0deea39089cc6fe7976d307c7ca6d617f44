@@ -1,10 +1,9 @@
 HTTP/2.0 404 Not Found
-Cf-Cache-Status: DYNAMIC
-Cf-Ray: 541dc9407a9dbef1-FRA
+Connection: close
+Content-Security-Policy: upgrade-insecure-requests;
 Content-Type: application/json
-Date: Sun, 08 Dec 2019 09:41:53 GMT
-Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Server: cloudflare
-Set-Cookie: __cfduid=d4beea94692a33207e09d550f4305f3081575798113; expires=Tue, 07-Jan-20 09:41:53 GMT; path=/; domain=.mangadex.org; HttpOnly
+Date: Sun, 30 Aug 2020 12:25:49 GMT
+Server: ddos-guard
+Set-Cookie: __ddg1=nVNHslLfY4Yk7qs9HJpp; Domain=.mangadex.org; HttpOnly; Path=/; Expires=Mon, 30-Aug-2021 12:25:48 GMT
 
 {"status":"Manga ID does not exist."}
